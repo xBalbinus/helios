@@ -3,7 +3,7 @@ set -e
 
 # modified from https://github.com/foundry-rs/foundry/blob/master/foundryup/foundryup
 
-REPO="a16z/helios"
+REPO="xBalbinus/helios"
 NAME=helios
 
 DIR=$HOME/.$NAME

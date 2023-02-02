@@ -431,7 +431,7 @@ impl<R: ConsensusRpc> ConsensusClient<R> {
         let age = self.age(self.store.optimistic_header.slot);
 
         info!(
-            "updated head               slot={}  confidence={:.decimals$}%  age={:02}:{:02}:{:02}:{:02}",
+            "updated head               slot={}  test fee foo confidence={:.decimals$}%  age={:02}:{:02}:{:02}:{:02}",
             self.store.optimistic_header.slot,
             participation,
             age.num_days(),
